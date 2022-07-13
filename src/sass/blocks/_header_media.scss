@@ -1,0 +1,40 @@
+@media (max-width: 991px) {
+	.header {
+		margin: 0 20px 0 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.header{
+		margin: 0 20px 0 20px;
+		&__logo{
+			img {
+				width: 95%;
+			}
+		}
+		&__official {
+			display: none;
+			}
+		&__phone {
+			font-size: 17px;
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.header{
+		margin: 0 10px 0 10px;
+		&__logo{
+			img {
+				width: 87%;
+			}
+		}
+		&__official {
+			display: none;
+			}
+		&__phone {
+			font-size: 13px;
+			font-weight: 500;
+		}
+	}
+}
