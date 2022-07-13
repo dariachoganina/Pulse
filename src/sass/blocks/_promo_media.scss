@@ -2,7 +2,6 @@
 @media (max-width: 991px) {
 	.promo {
 		&__wrapper {
-			padding: 0 20px 0 0;
 			align-items: center;
 		}
 	}
@@ -13,7 +12,6 @@
 		background: url(../img/main.jpg) left (center/cover) no-repeat;
 		&__wrapper {
 			margin-top: 70px;
-			padding: 0 20px 0 0;
 			align-items: center;
 		}
 		&__header {
@@ -42,7 +40,6 @@
 		// background: url(../img/main.jpg) center (center/cover) no-repeat;
 		&__wrapper {
 			margin-top: 35px;
-			padding: 0 20px 0 0;
 			align-items: center;
 		}
 		&__header {
@@ -56,13 +53,6 @@
 		&__icons {
 			display: none;
 		}
-		// &__icon {
-		// 	font-size: 12px;
-		// 	img {
-		// 		margin-bottom: 12px;
-		// 		width: 30px;
-		// 	}
-		// }
 		&__link {
 			font-size: 12px;
 		}
