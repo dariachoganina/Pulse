@@ -1,22 +1,21 @@
 @media (max-width: 767px) {
 	.button {
+		font-size: 13px;
 		&_main {
 			margin-top: 50px;
-			width: 290px;
+			font-size: 17px;
 		}
 	}
 }
 
 @media (max-width: 575px) {
 	.button {
-		width: 125px;
-		height: 25px;
-		font-size: 10px;
+		padding: 2px 14px ;
+		font-size: 12px;
 		&_main {
 			margin-top: 35px;
-			width: 175px;
-			height: 30px;
-			font-size: 10px;
+			font-size: 12px;
+			padding: 10px 15px;
 		}
 	}
 }

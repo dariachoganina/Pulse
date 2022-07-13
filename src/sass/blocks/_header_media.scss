@@ -6,7 +6,7 @@
 
 @media (max-width: 767px) {
 	.header{
-		margin: 0 20px 0 20px;
+		margin: 0 10px 0 10px;
 		&__logo{
 			img {
 				width: 95%;
@@ -23,17 +23,20 @@
 
 @media (max-width: 575px) {
 	.header{
-		margin: 0 10px 0 10px;
+		// margin: 0 10px 0 10px;
 		&__logo{
 			img {
-				width: 87%;
+				width: 85%;
 			}
 		}
 		&__official {
 			display: none;
 			}
+		&__contacts {
+			align-items: center;
+		}
 		&__phone {
-			font-size: 13px;
+			font-size: 12px;
 			font-weight: 500;
 		}
 	}
