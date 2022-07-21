@@ -27,7 +27,8 @@
 	}
 }
 
-@media (max-width: 1200px) {}
+
+
 @media (max-width: 991px) {
 	.carousel {
 		&__inner {
@@ -57,7 +58,7 @@
 					border: none;
 				}
 			.slick-active button {
-				background-color: red;
+				background-color: $main-color;
 			}
 		}
 	}
@@ -82,7 +83,7 @@
 }
 @media (max-width: 575px) {
 	.carousel {
-		padding: 50px 0 20px 0;
+		padding: 50px 0 50px 0;
 		.slick-dots { 
 			padding: 0;
 			margin: 25px auto;
